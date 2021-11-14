@@ -1,35 +1,23 @@
-class CRectangle{
- int width;
- int height;
- 
-public CRectangle(int w,int h){
- width=w;
- height=h;
- System.out.println("constructor CRectangle(int w,int h) called");
+class Caaa{
+private int value;
+
+public Caaa(){
+ value=10;
+ System.out.println("value="+value);
 }
-public CRectangle() {
- width=10;
- height=8;
- System.out.println("constructor CRectangle() called");
-}
-public void show() {
- System.out.println("width="+width);
- System.out.println("height="+height);
-}
-}
-	
-public class Main {
-public static void main(String[] args) {
- CRectangle rec1=new CRectangle(5,2);
- rec1.show();
- CRectangle rec2=new CRectangle();
- rec2.show();
+
+public Caaa(int i){
+ value=i;
+ System.out.println("value="+value);
 }
 }
 
-//constructor CRectangle(int w,int h) called
-//width=5
-//height=2
-//constructor CRectangle() called
-//width=10
-//height=8
+public class Main{
+public static void main(String args[]){
+ Caaa obj1=new Caaa();
+ Caaa obj2=new Caaa(12);
+}
+}
+
+//value=10
+//value=12
