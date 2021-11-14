@@ -18,10 +18,10 @@ public Data(String na,int eng,int ma){
  score=new Test(eng,ma);
 }
 public void show(){
- System.out.println("¾Ç¥Í©m¦W:"+name);
- System.out.println("­^¤å¦¨ÁZ:"+score.english);
- System.out.println("¼Æ¾Ç¦¨ÁZ:"+score.math);
- System.out.println("¥­§¡¦¨ÁZ:"+score.avg());
+ System.out.println("å­¸ç”Ÿå§“å:"+name);
+ System.out.println("è‹±æ–‡æˆç¸¾:"+score.english);
+ System.out.println("æ•¸å­¸æˆç¸¾:"+score.math);
+ System.out.println("å¹³å‡æˆç¸¾:"+score.avg());
 }
 }
 
@@ -32,7 +32,7 @@ public static void main(String args[]){
 }
 }
 
-//¾Ç¥Í©m¦W:Annie
-//­^¤å¦¨ÁZ:85
-//¼Æ¾Ç¦¨ÁZ:92
-//¥­§¡¦¨ÁZ:88.5
+//å­¸ç”Ÿå§“å:Annie
+//è‹±æ–‡æˆç¸¾:85
+//æ•¸å­¸æˆç¸¾:92
+//å¹³å‡æˆç¸¾:88.5
