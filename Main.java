@@ -26,3 +26,10 @@ public static void main(String[] args) {
  rec2.show();
 }
 }
+
+//constructor CRectangle(int w,int h) called
+//width=5
+//height=2
+//constructor CRectangle() called
+//width=10
+//height=8
