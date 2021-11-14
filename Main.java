@@ -3,7 +3,7 @@ public static void power(int x,int n){
  int sum=1;
  for(int i=1;i<=n;i++)
  sum*=x;
- System.out.println(x+"ªº"+n+"¦¸¤è="+sum);
+ System.out.println(x+"ÂªÂº"+n+"Â¦Â¸Â¤Ã¨="+sum);
 }
 }
 
@@ -14,5 +14,5 @@ public static void main(String args[]){
 }
 }
 
-//2ªº5¦¸¤è=32
-//3ªº2¦¸¤è=9	
+//2çš„5æ¬¡æ–¹=32
+//3çš„2æ¬¡æ–¹=9		
