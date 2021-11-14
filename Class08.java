@@ -52,3 +52,8 @@ public static void main(String args[]){
 //using setValue(10)...
 //cnt=10
 //cnt=11
+
+//(f),
+//cnt應要利用類別變數,因為cnt是用來計算CWin類別所建立的物件個數,所以可以宣告成類別變數,讓所有的CWin類別物件共用。
+//(g),
+//count()method可以定義成實例函數，也可以定義成類別函數。不過因為count()定義成實例函數時,是由物件呼叫的,對count()來說並不具有太大的意義，所以還是會建議將count()定義成類別函數。
