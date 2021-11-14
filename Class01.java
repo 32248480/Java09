@@ -35,7 +35,7 @@ public static void main(String[] args) {
 //width=10
 //height=8
 
-//(c)
+//(c),
 class CRectangle{
  int width;
  int height;
